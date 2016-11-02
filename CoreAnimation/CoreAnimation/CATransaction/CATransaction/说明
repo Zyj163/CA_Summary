@@ -1,0 +1,9 @@
+
+CALayer的那些可用于动画的(Animatable)属性,称之为Animatable Properties. 如果一个Layer对象存在对应着的View,则称这个Layer是一个Root Layer,非Root Layer一般都是通过CALayer或其子类直接创建的.下面的subLayer就是一个典型的非Root Layer,它没有对应的View对象关联着.所有的非Root Layer在设置Animatable Properties的时候都存在着隐式动画,默认的duration是0.25秒.
+
+subLayer.position = CGPointMake(300,400);
+像上面这段代码当下一个RunLoop开始的时候并不是直接将subLayer的position变成(300,400)的,而是有个移动的动画进行过渡完成的.
+
+任何Layer的animatable属性的设置都应该属于某个CA事务(CATransaction),事务的作用是为了保证多个animatable属性的变化同时进行,不管是同一个layer还是不同的layer之间的.CATransaction也分两类,显式的和隐式的,当在某次RunLoop中设置一个animatable属性的时候,如果发现当前没有事务,则会自动创建一个CA事务,在线程的下个RunLoop开始时自动commit这个事务,如果在没有RunLoop的地方设置layer的animatable属性,则必须使用显式的事务.
+
+事务可以嵌套.当事务嵌套时候,只有当最外层的事务commit了之后,整个动画才开始.

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:CoreAnimation"
+      name = "CoreAnimation">
+      <FileRef
+         location = "group:CAShapLayer+FuncPath/CAShapLayer+FuncPath.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAMediaTiming_demo/CAMediaTiming_demo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CATransaction/CATransaction.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAMediaTiming/CAMediaTiming.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CATransformLayer_demo/CATransformLayer_demo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CATileLayer_demo/CATileLayer_demo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:AVPlayerLayer/AVPlayerLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CALayer_demo/CALayer_demo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CALayer&#x5b66;&#x4e60;.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAShapLayer_demo.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAShapLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CATextLayer/CATextLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CATransformLayer/CATransformLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAEmitterLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAGradientLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CAReplicatorLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CASrollLayer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CATileLayer.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
